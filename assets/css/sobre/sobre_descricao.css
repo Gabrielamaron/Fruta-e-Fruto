@@ -1,0 +1,15 @@
+.sobre_descricao {
+    color: #595959;
+    font-style: italic;
+    font-weight: lighter;
+}
+@media screen and (min-width:0) {
+    .sobre_descricao {
+        font-size: 1.3rem;
+    }    
+}
+@media screen and (min-width:768px) {
+    .sobre_descricao {
+        font-size: 1.75rem;
+    }
+}
